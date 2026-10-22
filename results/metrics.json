@@ -1,0 +1,70 @@
+{
+  "seed_count": 5,
+  "dataset": "generated lexical source/target shift; disjoint deterministic splits",
+  "summary": [
+    {
+      "method": "frozen_source_plus_sparse_residual",
+      "domain": "source",
+      "accuracy_mean": 0.9550000000000001,
+      "accuracy_sd": 0.014252192813739227,
+      "macro_f1_mean": 0.9549812309336545,
+      "fit_seconds_mean": 0.001086300000315532
+    },
+    {
+      "method": "frozen_source_plus_sparse_residual",
+      "domain": "target",
+      "accuracy_mean": 0.9375,
+      "accuracy_sd": 0.030618621784789708,
+      "macro_f1_mean": 0.9372837926371325,
+      "fit_seconds_mean": 0.001086300000315532
+    },
+    {
+      "method": "source_only",
+      "domain": "source",
+      "accuracy_mean": 0.9525,
+      "accuracy_sd": 0.01854049621773914,
+      "macro_f1_mean": 0.9524738035008384,
+      "fit_seconds_mean": 0.0012043199996696786
+    },
+    {
+      "method": "source_only",
+      "domain": "target",
+      "accuracy_mean": 0.5175000000000001,
+      "accuracy_sd": 0.0682367203197809,
+      "macro_f1_mean": 0.5014702379337158,
+      "fit_seconds_mean": 0.0012043199996696786
+    },
+    {
+      "method": "source_target_replay",
+      "domain": "source",
+      "accuracy_mean": 0.9625000000000001,
+      "accuracy_sd": 0.026516504294495542,
+      "macro_f1_mean": 0.9624824029917886,
+      "fit_seconds_mean": 0.0012662800014368258
+    },
+    {
+      "method": "source_target_replay",
+      "domain": "target",
+      "accuracy_mean": 0.9475,
+      "accuracy_sd": 0.025617376914898994,
+      "macro_f1_mean": 0.9473931047786961,
+      "fit_seconds_mean": 0.0012662800014368258
+    },
+    {
+      "method": "target_only_adaptation",
+      "domain": "source",
+      "accuracy_mean": 0.53,
+      "accuracy_sd": 0.041079191812887446,
+      "macro_f1_mean": 0.5280679989714168,
+      "fit_seconds_mean": 0.0011268800008110702
+    },
+    {
+      "method": "target_only_adaptation",
+      "domain": "target",
+      "accuracy_mean": 0.945,
+      "accuracy_sd": 0.03377314021526574,
+      "macro_f1_mean": 0.9449389457841779,
+      "fit_seconds_mean": 0.0011268800008110702
+    }
+  ]
+}
