@@ -1,0 +1,6 @@
+[project]
+name = "domain-adapter-arena-study"
+version = "0.1.0"
+description = "Source-target adaptation and retention experiments on synthetic text"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "scipy>=1.13,<2", "scikit-learn>=1.5,<2"]
